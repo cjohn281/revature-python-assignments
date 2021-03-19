@@ -21,7 +21,7 @@ def fizz_buzz(num):
 def speed_check(speed):
   if speed <= 70:
     print("Ok")
-  elif speed > 70:
+  else:
     over = speed - 70
     points = over // 5
     print("Points %d" % points)
